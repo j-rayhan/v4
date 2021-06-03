@@ -132,7 +132,24 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'HTML & (S)CSS',
+    'TypeScript',
+    'Antd',
+    'React',
+    'Vue',
+    'Next.js',
+    'Nuxt.js',
+    'React Native',
+    'Ionic',
+    'Node.js',
+    'MongoDB',
+    'FeathersJs',
+    'GraphQL',
+    'PHP',
+    'Laravel',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +158,19 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Johir, a javascript lover!</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              Throughout my 5 years of development experience, I build web sites, progressive web
+              apps and server side apps and cloud based service. For this, I use the latest
+              technologies to deliver the best quality in the shortest time. I have worked with
+              following technologies:
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I am committed to create beautiful easy-to-use applications based on your
+              requirements. I am constantly innovating and learning new technologies to be able to
+              advise and help you grow.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
