@@ -176,7 +176,7 @@ const Jobs = () => {
     }
   `);
 
-  const jobsData = data.jobs.edges;
+  const jobsData = data?.jobs?.edges || [];
 
   const [activeTabId, setActiveTabId] = useState(0);
   const [tabFocus, setTabFocus] = useState(null);
@@ -224,25 +224,24 @@ const Jobs = () => {
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={onKeyDown}>
-          {jobsData &&
-            jobsData.map(({ node }, i) => {
-              const { company } = node.frontmatter;
-              return (
-                <li key={i}>
-                  <StyledTabButton
-                    isActive={activeTabId === i}
-                    onClick={() => setActiveTabId(i)}
-                    ref={el => (tabs.current[i] = el)}
-                    id={`tab-${i}`}
-                    role="tab"
-                    aria-selected={activeTabId === i ? true : false}
-                    aria-controls={`panel-${i}`}
-                    tabIndex={activeTabId === i ? '0' : '-1'}>
-                    <span>{company}</span>
-                  </StyledTabButton>
-                </li>
-              );
-            })}
+          {jobsData.map(({ node }, i) => {
+            const { company } = node.frontmatter;
+            return (
+              <li key={i}>
+                <StyledTabButton
+                  isActive={activeTabId === i}
+                  onClick={() => setActiveTabId(i)}
+                  ref={el => (tabs.current[i] = el)}
+                  id={`tab-${i}`}
+                  role="tab"
+                  aria-selected={activeTabId === i ? true : false}
+                  aria-controls={`panel-${i}`}
+                  tabIndex={activeTabId === i ? '0' : '-1'}>
+                  <span>{company}</span>
+                </StyledTabButton>
+              </li>
+            );
+          })}
           <StyledHighlight activeTabId={activeTabId} />
         </StyledTabList>
 
