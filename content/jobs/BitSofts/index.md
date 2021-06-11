@@ -3,8 +3,8 @@ date: '2018-06-01'
 title: 'Programmer'
 company: 'BitSoft'
 location: 'Bangladesh, Dhaka'
-range: 'Jun 2018 - April 2020'
-url: 'https://web.northeastern.edu/scout/'
+range: 'June 2018 - April 2020'
+url: 'https://bitsofts.com.bd/'
 ---
 
 - Worked with a team of three designers to build a marketing website and e-learning platform for [MeeOpp](https://meeopp.com), an ambitious startup originating from Northeastern
