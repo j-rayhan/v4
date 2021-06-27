@@ -5,8 +5,10 @@ github: 'https://github.com/j-rayhan/react-shop'
 external: 'https://'
 tech:
   - React
-  - CSS
+  - Node
+  - Express
+  - MongoDB
 showInProjects: true
 ---
 
-Online version of my 2017 resume made for fun. I was interested in learning React.js, so I found a simple tutorial and it spun into a weekend project.
+The best book shopping cart software can provide a seamless online retail experience for customers, allowing them to order and pay for products directly from your website.

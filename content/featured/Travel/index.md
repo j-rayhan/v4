@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-A React Native app using styled components and react hook. The app is full responsive and has a booking trip enroll e-commerce app. This beginner app is just the 3 view end and you can refactor the code to add additional screen and update the link.
+A React Native app using styled components and react hook. The app has a booking trip enroll e-commerce app. This beginner app is just the 3 view end and you can refactor the code to add additional screen and update the link.

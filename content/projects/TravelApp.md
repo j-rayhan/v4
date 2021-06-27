@@ -11,4 +11,4 @@ company: ''
 showInProjects: true
 ---
 
-Building a custom multisite compatible WordPress plugin to build global search with Algolia
+This beginner app is just the 3 view end and you can refactor the code to add additional screen and update the link.
